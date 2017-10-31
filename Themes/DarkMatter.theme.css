@@ -144,7 +144,7 @@ textarea {
 }
 
 /* Server list area */
-.guilds-wrapper { background:rgba(0,0,0,0.5) !important }
+.guilds-wrapper { background:rgba(0,0,0,0.05) !important }
 
 /* Channels list area */
 .channels-wrap { background:rgba(0,0,0,0.6) }
@@ -210,7 +210,7 @@ textarea {
 }
 
 .contentSelectedText-3j5CXt {
-	background: rgba(0,0,0,0.8);
+	background: rgba(0,0,0,0.8) !important;
 }
 
 .contentSelectedText-3j5CXt:hover {
@@ -336,8 +336,8 @@ textarea {
 
 .guilds-add {
 	opacity:0.5;
-	font-size:22px !important;
-	border: 1px dashed rgba(255,255,255,0.3) !important;
+	font-size:22px;
+	border: 1px dashed rgba(255,255,255,0.3);
 	margin-left: 0 !important;
 	margin-top: 10px !important;
 }
@@ -458,7 +458,7 @@ textarea {
 .guilds-wrapper .guilds .guild:before,
 .guilds-wrapper .guilds .guild.unread:before,
 .guilds-wrapper .guilds .guild.selected:before {
-	left:-19px;
+	left:-20px !important;
 	transition:0.2s ease-in-out all;
 }
 
@@ -989,7 +989,7 @@ textarea {
 }
 
 .chat .divider.divider-red:before {
-	background: rgba(240,71,71,.8) !important;
+	background: rgba(240,71,71,.0.8) !important;
 }
 
 .chat .divider>span {
