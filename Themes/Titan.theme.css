@@ -1,0 +1,47 @@
+//META{"name":"Titan","description":"A Dark Sci-Fi Theme","author":"Machine_Galaxy#6782","version":"2.0.0","source":"","website":"https://machine.me.uk/"}*//{}
+/*
+###################################################################################################
+Titan Theme for Better Discord
+
+This theme is meant to be used with the dark version of discord
+###################################################################################################*/
+@import url("https://repo.serenitylabs.co.uk/publicfiles/TitanCore.css");
+/*###################################################################################################*/
+:root {
+    /* Images */
+    --bgImage:url("https://repo.serenitylabs.co.uk/publicfiles/TitanBackground.jpg");
+    --HomeButtonImg:url("https://repo.serenitylabs.co.uk/publicfiles/TitanLogo.png");
+    --brightness: 0.4;
+
+    /* font */
+    --customFont: 'Montserrat';
+
+    /* Colors */
+    --PrimaryColor01: rgb(43, 50, 255); /* Theme's color 01 */
+    --PrimaryColorRGBA: rgba(43, 50, 255, 0.15); /* Theme's color 01 (transparent) */
+    --PrimaryColor02: #170ced; /* Theme's color 02 */
+    --DangerColor: #dc3545; /* Color showing a danger or an important action */
+    --WarningColor: #c20202; /* Color for stuff you should look for */
+    --SuccesColor: #009622; /* Color showing a succesful action */
+    --InfoColor: #173ab8; /* Color showing an information or basic action */
+    --DangerColor02: #ff0000; /* Color showing a danger or an important action (darker) */
+    --WarningColor02: #960202; /* Color for stuff you should look for (darker) */
+    --SuccesColor02: #09ab2f; /* Color showing a succesful action (darker) */
+    --InfoColor02: #1c4dfc; /* Color showing an information or basic action (darker)*/
+    --DefaultColor: #6c757d; /* Default color */
+    --DefaultColor02: #5a6268;/* Default color (darker)*/
+
+    /* Texts colors */
+    --ChatTextColor: hsla(0, 100%, 100%, 1);
+    --RoleTitleColor: hsla(0, 100%, 100%, .95);
+    --UserPlayingTextColor: hsla(0, 100%, 100%, .6);
+    --ChannelsSelectedTextColor: hsla(0, 100%, 100%, .95);
+    --ChannelsDefaultTextColor: hsla(0, 100%, 100%, .6);
+    --ChannelsDarkTextColor: hsla(0, 100%, 100%, .2);
+
+    /* background colors (non-trasnparent)*/
+    --NTBackgroundColor01: #3a3f4b; /* Background color (bright) */
+    --NTBackgroundColor02: #2b3039; /* Background color (less bright) */
+    --NTBackgroundColor03: #282c34; /* Background color (dark) */
+    --NTBackgroundColor04: #21252c; /* Background color (super dark) */
+}
